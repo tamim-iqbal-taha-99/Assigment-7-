@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "picture": "https://i.pravatar.cc/150?img=1",
+    "email": "john@example.com",
+    "days_since_contact": 12,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met in university. Love hiking together.",
+    "goal": 14,
+    "next_due_date": "2025-07-20"
+  },
+  {
+    "id": 2,
+    "name": "Sarah Ahmed",
+    "picture": "https://i.pravatar.cc/150?img=2",
+    "email": "sarah@example.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["work", "team"],
+    "bio": "Office colleague. Works in design department.",
+    "goal": 10,
+    "next_due_date": "2025-07-25"
+  },
+  {
+    "id": 3,
+    "name": "Michael Lee",
+    "picture": "https://i.pravatar.cc/150?img=3",
+    "email": "michael@example.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": ["gym", "buddy"],
+    "bio": "Workout partner from local gym.",
+    "goal": 7,
+    "next_due_date": "2025-07-15"
+  },
+  {
+    "id": 4,
+    "name": "Ayesha Khan",
+    "picture": "https://i.pravatar.cc/150?img=4",
+    "email": "ayesha@example.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["family"],
+    "bio": "Cousin. Meet during family events.",
+    "goal": 30,
+    "next_due_date": "2025-08-01"
+  },
+  {
+    "id": 5,
+    "name": "David Smith",
+    "picture": "https://i.pravatar.cc/150?img=5",
+    "email": "david@example.com",
+    "days_since_contact": 9,
+    "status": "pending",
+    "tags": ["business"],
+    "bio": "Client from recent freelance project.",
+    "goal": 15,
+    "next_due_date": "2025-07-28"
+  },
+  {
+    "id": 6,
+    "name": "Nusrat Jahan",
+    "picture": "https://i.pravatar.cc/150?img=6",
+    "email": "nusrat@example.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["school", "friend"],
+    "bio": "School friend. Regular contact maintained.",
+    "goal": 10,
+    "next_due_date": "2025-07-22"
+  },
+  {
+    "id": 7,
+    "name": "Ali Hassan",
+    "picture": "https://i.pravatar.cc/150?img=7",
+    "email": "ali@example.com",
+    "days_since_contact": 16,
+    "status": "overdue",
+    "tags": ["neighbor"],
+    "bio": "Old neighbor from previous residence.",
+    "goal": 14,
+    "next_due_date": "2025-07-18"
+  },
+  {
+    "id": 8,
+    "name": "Emma Watson",
+    "picture": "https://i.pravatar.cc/150?img=8",
+    "email": "emma@example.com",
+    "days_since_contact": 7,
+    "status": "pending",
+    "tags": ["online", "friend"],
+    "bio": "Met through an online community.",
+    "goal": 12,
+    "next_due_date": "2025-07-26"
+  }
+]
