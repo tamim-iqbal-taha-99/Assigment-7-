@@ -1,4 +1,5 @@
 import React from "react";
+import FriendsCards from "./FriendsCards";
 const Home = () => {
     return (
         <section className=' '>
@@ -36,9 +37,9 @@ const Home = () => {
                 </div>
             </div>
 
-            <div>
-                <h1>Your Friends</h1>
-                  
+            <div className="pt-10 space-y-5">
+                <h1 className="font-bold text-2xl underline">Your Friends</h1>
+                <FriendsCards></FriendsCards>  
             </div>
 
 
