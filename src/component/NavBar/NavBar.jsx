@@ -17,15 +17,15 @@ const NavBar = () => {
                         <ul
                             tabIndex="-1"
                             className=" space-y-1.5 menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                            <NavLink to="/" className={"btn "}>
+                            <NavLink to="/" className={({isActive}) => ` btn ${isActive? "bg-green-900 text-white":""}`}>
                                 <FaHome></FaHome>
                                 Home
                             </NavLink>
-                            <NavLink to="/timeline" className={"btn"}>
+                            <NavLink to="/timeline" className={({isActive}) => ` btn ${isActive? "bg-green-900 text-white":""}`}>
                                 <RiTimeLine></RiTimeLine>
                                 TimeLine
                             </NavLink>
-                            <NavLink to="/status" className={"btn"}>
+                            <NavLink to="/status" className={({isActive}) => ` btn ${isActive? "bg-green-900 text-white":""}`}>
                                 <MdTimeline></MdTimeline>
                                 Status
                             </NavLink>

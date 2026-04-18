@@ -1,12 +1,25 @@
-import React from 'react';
+
+import { useContext } from 'react';
 import { IoCall } from 'react-icons/io5';
 import { useLoaderData } from 'react-router';
+import { FndContext } from '../../context/Fndprovider';
 
 
 
 const FriendDetails = () => {
+
+   const { handleAction} = useContext(FndContext);
+//    console.log(handleCallBtn);
+   
+  
+    
+
+    
+
+
+
     const userData = useLoaderData()
-    const { picture, name, status, tags, bio, email, goal, next_due_date, days_since_contact } = userData
+    const { picture, name, status, tags, bio, email, goal, next_due_date, days_since_contact , id} = userData
     console.log(userData);
 
 
@@ -90,9 +103,9 @@ const FriendDetails = () => {
                         <h1 className="font-bold text-xl">Quick Check-In</h1>
 
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                            <button className="shadow-md rounded-md py-6">Call</button>
-                            <button className="shadow-md rounded-md py-6">Text</button>
-                            <button className="shadow-md rounded-md py-6">Video</button>
+                            <button onClick={()=> handleAction(userData, "call")} className="btn shadow-md rounded-md py-6">Call</button>
+                            <button onClick={()=> handleAction(userData, "text")} className="btn shadow-md rounded-md py-6">Text</button>
+                            <button onClick={()=> handleAction(userData, "video")} className="btn shadow-md rounded-md py-6">Video</button>
                         </div>
                     </div>
 

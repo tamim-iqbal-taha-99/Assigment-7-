@@ -7,6 +7,10 @@ import rootLayout from './layout/rootLayout';
 import Home from './pages/home page/Home';
 import ErrorPage from './pages/ErrorPage/ErrorPage';
 import FriendDetails from './pages/FriendDetails/FriendDetails';
+import TimeLine from './pages/TimeLIne/TimeLine';
+import Fndprovider from './context/Fndprovider';
+import { ToastContainer } from 'react-toastify';
+import Status from './pages/Status/Status';
 
 
 const router = createBrowserRouter([
@@ -32,11 +36,11 @@ const router = createBrowserRouter([
 
       {
         path: "/timeline",
-        element: <h1>timeline</h1>
+        element: <TimeLine></TimeLine>
       },
       {
         path: "/status",
-        element: <h1>status</h1>
+        element: <Status></Status>
       }
     ],
     errorElement: <ErrorPage></ErrorPage>
@@ -48,6 +52,10 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <Fndprovider>
+      <RouterProvider router={router} />
+      <ToastContainer />
+    </Fndprovider>
+
   </StrictMode>,
 )

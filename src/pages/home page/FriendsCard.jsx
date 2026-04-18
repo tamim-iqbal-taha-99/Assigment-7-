@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 const FriendsCard = ({ friend }) => {
     const { picture, name, days_since_contact, tags, status, id } = friend
 
-    console.log(friend);
+    // console.log(friend);
 
     return (
 
